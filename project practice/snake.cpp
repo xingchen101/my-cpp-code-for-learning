@@ -7,7 +7,7 @@
 #include<conio.h>
 using namespace std;
 
-//ÓÃÀ´Éú³ÉËæ»úÊı
+//ç”¨æ¥ç”Ÿæˆéšæœºæ•°
 static std::random_device rd;
 static std::mt19937 gen(rd());
 int get_random(int min, int max) {
@@ -144,7 +144,7 @@ int main() {
 		map[foodpos.y][foodpos.x] = '*';
 
 		if (_kbhit()) {
-			char dir='¹ş';
+			char dir='Â¹Ã¾';
 			dir = _getch();
 			snake_1.turndir(dir);
 		}
