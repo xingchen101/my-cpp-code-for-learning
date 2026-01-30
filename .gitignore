@@ -1,0 +1,31 @@
+    .gitignore
+    # 编译生成的可执行文件
+*.exe
+*.out
+*.bin
+
+# 编译中间文件
+*.o
+*.obj
+*.ilk
+*.pdb
+*.idb
+
+# Visual Studio 生成的目录和文件
+Debug/
+Release/
+.vs/
+*.suo
+*.user
+*.vcxproj.filters
+
+# VS Code 配置（可选，如果你不想共享）
+.vscode/
+
+# 临时文件
+*.tmp
+*.log
+Thumbs.db
+
+# macOS 系统文件（可选）
+.DS_Store
